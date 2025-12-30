@@ -1,0 +1,10 @@
+name = input("enter your name")
+age=int(input("enter your age"))
+grade=int(input("enter your grade"))
+maths=int(input("enter marks in maths"))
+english=int(input("enter marks in english"))
+computer=int(input("enter marks in computer"))
+nepali=int(input("enter marks in nepali"))
+science=int(input("enter marks in science"))
+marks = ((maths+english+computer+nepali+science)/500)*100
+print (f"the percentage obtained by the student is{marks}")

@@ -1,0 +1,14 @@
+print("#####welcome to ATM#####")
+option = int(input("press 1 to withdraw press 2 to deposit"))
+bank = 5000
+
+if option == 1:
+    how_much = int(input("how much will you withdraw from your bank?"))
+    bank = bank - how_much
+elif option == 2:
+    how_much = int(input("how much will you deposit in your bank?"))
+    bank = bank + how_much
+else:
+    print("you have entered an invalid option")
+
+print(bank)
